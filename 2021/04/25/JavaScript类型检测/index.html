@@ -253,7 +253,7 @@ if ('Gitalk' === 'Gitalk' || !false) {
   function loadOtherComment () {
     loadGitalk()
   }
-}</script><div class="vcomment" id="vcomment"></div><script src="/../source/js/Valine.min.js"></script><script>function loadValine () {
+}</script><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/gh/abinea/abincdn/Valine.min.js"></script><script>function loadValine () {
   function initValine () {
     const valine = new Valine(Object.assign({
       el: '#vcomment',
@@ -276,7 +276,7 @@ if ('Gitalk' === 'Gitalk' || !false) {
   }
 
   if (typeof Valine === 'function') initValine() 
-  else getScript('/../source/js/Valine.min.js').then(initValine)
+  else getScript('https://cdn.jsdelivr.net/gh/abinea/abincdn/Valine.min.js').then(initValine)
 }
 
 if ('Gitalk' === 'Valine' || !false) {
