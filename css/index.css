@@ -1300,7 +1300,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 15px;
+  --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #d2ebfd;
@@ -1341,7 +1341,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: Roboto, "PingFang SC";
+  font-family: Roboto;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1674,8 +1674,8 @@ blockquote footer cite:before {
 }
 #article-container pre,
 #article-container code {
-  font-size: 13px;
-  font-family: JetBrains Mono ,consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-size: 12px;
+  font-family: JetBrains Mono !important;
 }
 #article-container code {
   padding: 0.1rem 0.2rem;
@@ -1702,7 +1702,7 @@ blockquote footer cite:before {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 0.3rem 0 0.1rem 0.7rem;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1734,7 +1734,7 @@ blockquote footer cite:before {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: 13px;
+  font-size: 12px;
 }
 #article-container .highlight-tools.closed + table {
   display: none;
@@ -3388,7 +3388,7 @@ blockquote footer cite:before {
   transition: all 0.5s;
 }
 #page-header.full_page {
-  height: 100px;
+  height: 10rem;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
