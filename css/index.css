@@ -1300,7 +1300,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 26px;
+  --global-font-size: 28px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #d2ebfd;
@@ -1679,7 +1679,7 @@ blockquote footer cite:before {
 #article-container pre,
 #article-container code {
   font-size: 16px;
-  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: JetBrains Mono !important;
 }
 #article-container code {
   padding: 0.1rem 0.2rem;
